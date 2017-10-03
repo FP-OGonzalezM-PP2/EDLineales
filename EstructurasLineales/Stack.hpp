@@ -12,14 +12,14 @@
 #include <stdio.h>
 #include "Node.hpp"
 
-template <class T> class Stack {
+template <class T> class myStack {
 private:
     Node<T> *top;
     int size;
     
 public:
-    Stack();
-    ~Stack();
+    myStack();
+    ~myStack();
     void push (T e);
     Node<T>  pop ();
     bool isEmpty();
