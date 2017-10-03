@@ -1,24 +1,24 @@
 //
-//  Stack.cpp
+//  myStack.cpp
 //  EstructurasLineales
 //
 //  Created by Paco Alvizo on 10/3/17.
 //  Copyright © 2017 Paco Alvizo. All rights reserved.
 //
 
-#include "Stack.hpp"
+#include "myStack.hpp"
 
 template <typename T>
-Stack<T>::Stack(){
+myStack<T>::myStack(){
     top=NULL;
     size=0;
 }
 
 template <typename T>
-Stack<T>::~Stack(){}
+myStack<T>::~myStack(){}
 
 template <typename T>
-void Stack<T>::push(T e){
+void myStack<T>::push(T e){
     Node<T> *node = new Node<T>();
     node->next=top;
     top=node;
@@ -26,7 +26,7 @@ void Stack<T>::push(T e){
 }
 
 template <typename T>
-Node<T>  Stack<T>::pop(){
+Node<T>  myStack<T>::pop(){
     Node<T> *t = top;
     top=top->next;
     size--;
@@ -34,22 +34,22 @@ Node<T>  Stack<T>::pop(){
 }
 
 template <typename T>
-bool Stack<T>::isEmpty(){
+bool myStack<T>::isEmpty(){
     return size==0;
 }
 
 template <typename T>
-void Stack<T>::emptyStack(){
+void myStack<T>::emptymyStack(){
     top=NULL;
     size=0;
 }
 
 template <typename T>
-Node<T> Stack<T>::getTop(){
+Node<T> myStack<T>::getTop(){
     return top;
 }
 
 template <typename T>
-int Stack<T>::getSize(){
+int myStack<T>::getSize(){
     return size;
 }
