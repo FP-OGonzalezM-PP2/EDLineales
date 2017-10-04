@@ -28,6 +28,7 @@ public:
     
     //Declaración Método mostrar
     void print();
+    void printS();
 };
 
 #endif /* Node_hpp */

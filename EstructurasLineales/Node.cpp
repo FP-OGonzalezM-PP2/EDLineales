@@ -27,6 +27,12 @@ Node <T>::print(){
     std::cout << data << "->";
 }
 
+//Imprimir Nodo para pila
+template <typename T> void
+Node <T>::printS(){
+    std::cout << data << endl <<"↓"<< endl;
+}
+
 //Destructor
 template <typename T>
 Node<T>::~Node(){}

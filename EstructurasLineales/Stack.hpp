@@ -10,22 +10,23 @@
 #define Stack_hpp
 
 #include <stdio.h>
-#include "Node.hpp"
+#include "Node.cpp"
 
-template <class T> class myStack {
+template <class T> class Stack{
 private:
     Node<T> *top;
     int size;
     
 public:
-    myStack();
-    ~myStack();
-    void push (T e);
-    Node<T>  pop ();
-    bool isEmpty();
-    void emptyStack();
-    Node<T> getTop();
+    Stack<T>();
+    Stack<T>(T d);
+    ~Stack<T>();
+    
     int getSize();
+    void push(T d);
+    T pop();
+    T getTop();
+    void showStack();
 };
 
-#endif /* Stack_hpp */ 
+#endif /* Stack_hpp */
