@@ -27,6 +27,7 @@ public:
     T pop();
     T getTop();
     void showStack();
+    bool isEmpty();
 };
 
 #endif /* Stack_hpp */

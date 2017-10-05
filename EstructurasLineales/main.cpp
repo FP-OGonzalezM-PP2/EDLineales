@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
     Lista.showList();
     */
     
-    /*
+    
     Stack<int> pila = *new Stack<int>();
     
     //std::cout<<pila.getSize()<<"\n";
@@ -48,16 +48,19 @@ int main(int argc, const char * argv[]) {
     //std::cout<<pila.getSize()<<"\n";
     pila.push(10);
     pila.push(40);
-    pila.showStack();
+    //pila.showStack();
     pila.push(2);
     pila.push(102);
     pila.push(893);
+    pila.showStack();
+    int a = pila.getTop();
+    std::cout<<"Mostramos el elemento "<<a<<endl<<"Mostramos Pila"<<endl;
     pila.showStack();
     //std::cout<<pila.getSize()<<"\n";
     //std::cout<<pila.pop()<<"\n";
     //std::cout<<pila.getSize()<<"\n";
     //pila.showStack();
     
-    */
+    
     return 0;
 }
