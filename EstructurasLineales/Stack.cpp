@@ -46,10 +46,10 @@ T Stack<T>::pop(){
         d = top->data;
         top=top->next;
         size--;
+        return d;
     }else{
-        d=NULL;
+        return NULL;
     }
-    return d;
 }
 //Devuelve el valor de la cima
 template <typename T>
@@ -74,4 +74,11 @@ void Stack<T>::showStack(){
 template <typename T>
 bool Stack<T>::isEmpty(){
     return size==0;
+}
+
+//Vaciar Pila
+template <typename T>
+void Stack<T>::deleteStack(){
+    top=NULL;
+    size=0;
 }

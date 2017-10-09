@@ -39,14 +39,14 @@ void List<T>::insertFirst(T d){
 //Insertar al final
 template <typename T>
 void List<T>::insertLast(T d){
-    Node<T> *node = new Node<T>(d);
     if (isEmpty()){ //Si la lista está vacía
         insertFirst(d);
     }else{ //Si la lista no está vacía
+        Node<T> *node = new Node<T>(d);
         last->next = node; //El apuntador next del último nodo apunta al nuevo nodo
         last=node; // El apuntador last apunta al nuevo nodo
+        length++; //Incrementamos el contador de nodos;
     }
-    length++; //Incrementamos el contador de nodos;
 }
 //Eliminar la lista
 template <typename T>

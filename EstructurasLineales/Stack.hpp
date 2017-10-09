@@ -28,6 +28,7 @@ public:
     T getTop();
     void showStack();
     bool isEmpty();
+    void deleteStack();
 };
 
 #endif /* Stack_hpp */

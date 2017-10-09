@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <string>
-#include "Stack.cpp"
+#include "Queue.cpp"
 using namespace std;
 
 
@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
     Lista.showList();
     */
     
-    
+    /*
     Stack<int> pila = *new Stack<int>();
     
     //std::cout<<pila.getSize()<<"\n";
@@ -60,7 +60,23 @@ int main(int argc, const char * argv[]) {
     //std::cout<<pila.pop()<<"\n";
     //std::cout<<pila.getSize()<<"\n";
     //pila.showStack();
+    */
     
+    
+    Queue<string> fila = *new Queue<string>;
+    fila.enqueue(" esta");
+    fila.enqueue(" es");
+    fila.enqueue(" una");
+    fila.enqueue(" fila");
+    fila.showQueue();
+    fila.dequeue();
+    fila.showQueue();
+    fila.enqueue(fila.dequeue());
+    fila.showQueue();
+    std::cout<<fila.getSize()<<" elementos en la fila, |"<<fila.getFront()<<"| es el primer elemento de la fila"<<endl;
+    fila.showQueue();
+    fila.clearQueue();
+    fila.showQueue();
     
     return 0;
 }
