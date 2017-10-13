@@ -15,6 +15,7 @@
 		920A2B421F81B4E200809F98 /* DLNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 920A2B401F81B4E200809F98 /* DLNode.cpp */; };
 		9222F6F61F84571700CA84A7 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9222F6F41F84571700CA84A7 /* Stack.cpp */; };
 		9222F7141F89BECE00CA84A7 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9222F7121F89BECE00CA84A7 /* Queue.cpp */; };
+		9222F71B1F8F148600CA84A7 /* Deque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9222F7191F8F148600CA84A7 /* Deque.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		9222F6F51F84571700CA84A7 /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		9222F7121F89BECE00CA84A7 /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
 		9222F7131F89BECE00CA84A7 /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		9222F7191F8F148600CA84A7 /* Deque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deque.cpp; sourceTree = "<group>"; };
+		9222F71A1F8F148600CA84A7 /* Deque.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Deque.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +87,8 @@
 				920A2B381F7AD31600809F98 /* CircularList */,
 				920A2B391F7AD34F00809F98 /* Stack */,
 				920A2B3A1F7AD35A00809F98 /* Queue */,
-				920A2B3B1F7AD36700809F98 /* DeQueue */,
+				920A2B3B1F7AD36700809F98 /* Deque */,
+				9222F7151F8BBB3E00CA84A7 /* MisClases */,
 			);
 			path = EstructurasLineales;
 			sourceTree = "<group>";
@@ -127,11 +131,13 @@
 			name = Queue;
 			sourceTree = "<group>";
 		};
-		920A2B3B1F7AD36700809F98 /* DeQueue */ = {
+		920A2B3B1F7AD36700809F98 /* Deque */ = {
 			isa = PBXGroup;
 			children = (
+				9222F7191F8F148600CA84A7 /* Deque.cpp */,
+				9222F71A1F8F148600CA84A7 /* Deque.hpp */,
 			);
-			name = DeQueue;
+			name = Deque;
 			sourceTree = "<group>";
 		};
 		920A2B3F1F81B4B500809F98 /* DoubleLinkedList */ = {
@@ -143,6 +149,13 @@
 				920A2B411F81B4E200809F98 /* DLNode.hpp */,
 			);
 			name = DoubleLinkedList;
+			sourceTree = "<group>";
+		};
+		9222F7151F8BBB3E00CA84A7 /* MisClases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MisClases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				920A2B421F81B4E200809F98 /* DLNode.cpp in Sources */,
 				920A2B341F73FCE700809F98 /* DLList.cpp in Sources */,
 				9222F6F61F84571700CA84A7 /* Stack.cpp in Sources */,
+				9222F71B1F8F148600CA84A7 /* Deque.cpp in Sources */,
 				920A2B2B1F70013100809F98 /* Node.cpp in Sources */,
 				920A2B3E1F81A71000809F98 /* CList.cpp in Sources */,
 				9222F7141F89BECE00CA84A7 /* Queue.cpp in Sources */,
