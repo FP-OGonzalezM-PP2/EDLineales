@@ -7,8 +7,8 @@
 //
 
 #include <iostream>
-#include <string>
 #include "Queue.cpp"
+#include "Contacto.cpp"
 using namespace std;
 
 
@@ -62,8 +62,10 @@ int main(int argc, const char * argv[]) {
     //pila.showStack();
     */
     
-    
-    Queue<string> fila = *new Queue<string>;
+
+    //std::cout << contacto.toStringDatos();
+   // fila.showQueue();
+    /*
     fila.enqueue(" esta");
     fila.enqueue(" es");
     fila.enqueue(" una");
@@ -77,6 +79,6 @@ int main(int argc, const char * argv[]) {
     fila.showQueue();
     fila.clearQueue();
     fila.showQueue();
-    
+    */
     return 0;
 }
