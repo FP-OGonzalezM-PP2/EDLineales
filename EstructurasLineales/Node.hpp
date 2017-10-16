@@ -22,7 +22,7 @@ public:
     
     //Declaración de constructores.
     Node();
-    Node(T);
+    Node(T d);
     //Declaración de desctructor.
     ~Node();
     
