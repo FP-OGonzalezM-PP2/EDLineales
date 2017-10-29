@@ -82,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				920A2B221F7000DD00809F98 /* main.cpp */,
+				92596EA61FA69875000D8EAF /* Nodes */,
 				920A2B371F794D3C00809F98 /* SimpleLinkedList */,
 				920A2B3F1F81B4B500809F98 /* DoubleLinkedList */,
 				920A2B381F7AD31600809F98 /* CircularList */,
@@ -96,8 +97,6 @@
 		920A2B371F794D3C00809F98 /* SimpleLinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				920A2B291F70013100809F98 /* Node.cpp */,
-				920A2B2A1F70013100809F98 /* Node.hpp */,
 				920A2B2C1F70D91A00809F98 /* List.cpp */,
 				920A2B2D1F70D91A00809F98 /* List.hpp */,
 			);
@@ -145,8 +144,6 @@
 			children = (
 				920A2B331F73FCE700809F98 /* DLList.hpp */,
 				920A2B321F73FCE700809F98 /* DLList.cpp */,
-				920A2B401F81B4E200809F98 /* DLNode.cpp */,
-				920A2B411F81B4E200809F98 /* DLNode.hpp */,
 			);
 			name = DoubleLinkedList;
 			sourceTree = "<group>";
@@ -156,6 +153,17 @@
 			children = (
 			);
 			name = MisClases;
+			sourceTree = "<group>";
+		};
+		92596EA61FA69875000D8EAF /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				920A2B401F81B4E200809F98 /* DLNode.cpp */,
+				920A2B411F81B4E200809F98 /* DLNode.hpp */,
+				920A2B291F70013100809F98 /* Node.cpp */,
+				920A2B2A1F70013100809F98 /* Node.hpp */,
+			);
+			name = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
