@@ -9,9 +9,8 @@
 #ifndef List_hpp
 #define List_hpp
 
-#include <stdio.h>
 #include "Node.hpp"
-#include "node.cpp"
+#include <string>
 
 template <class T> class List{
 public:
@@ -32,6 +31,7 @@ public:
     void deleteNode(T d);
     void showList();
     void showListbyAddress();
+    
 };
 
 #endif /* List_hpp */

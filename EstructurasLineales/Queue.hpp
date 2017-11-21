@@ -10,7 +10,7 @@
 #define Queue_hpp
 
 #include <stdio.h>
-#include "Node.cpp"
+#include "Node.hpp"
 
 template <class T> class Queue{
 private:

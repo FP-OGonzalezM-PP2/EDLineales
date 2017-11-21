@@ -16,7 +16,7 @@ Node<T>::Node(){
 
 //Consturctor con un elemento
 template <typename T>
-Node<T>::Node(T d){
+Node<T>::Node(T d) : data(d){ //agregamos :data(d) para indicar que utilizaremos el constructor default del t de dato que asignemos
     data=d;
     next=NULL;
 }

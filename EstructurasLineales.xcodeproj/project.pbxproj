@@ -16,6 +16,8 @@
 		9222F6F61F84571700CA84A7 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9222F6F41F84571700CA84A7 /* Stack.cpp */; };
 		9222F7141F89BECE00CA84A7 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9222F7121F89BECE00CA84A7 /* Queue.cpp */; };
 		9222F71B1F8F148600CA84A7 /* Deque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9222F7191F8F148600CA84A7 /* Deque.cpp */; };
+		92731A611FBD4CBB00B0E9C6 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92731A5F1FBD4CBB00B0E9C6 /* Graph.cpp */; };
+		92E968861FBD19E300E04562 /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E968851FBD19E300E04562 /* Edge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,10 @@
 		9222F7131F89BECE00CA84A7 /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		9222F7191F8F148600CA84A7 /* Deque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deque.cpp; sourceTree = "<group>"; };
 		9222F71A1F8F148600CA84A7 /* Deque.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Deque.hpp; sourceTree = "<group>"; };
+		92731A5F1FBD4CBB00B0E9C6 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Graph.cpp; path = EstructurasLineales/Graph.cpp; sourceTree = "<group>"; };
+		92731A601FBD4CBB00B0E9C6 /* Graph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Graph.hpp; path = EstructurasLineales/Graph.hpp; sourceTree = "<group>"; };
+		92E968831FBD19BC00E04562 /* Edge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Edge.hpp; path = EstructurasLineales/Edge.hpp; sourceTree = "<group>"; };
+		92E968851FBD19E300E04562 /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Edge.cpp; path = EstructurasLineales/Edge.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				920A2B211F7000DD00809F98 /* EstructurasLineales */,
+				92E9687B1FBD17C800E04562 /* EstructurasNoLineales */,
 				920A2B201F7000DD00809F98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,6 +173,25 @@
 			name = Nodes;
 			sourceTree = "<group>";
 		};
+		92E9687B1FBD17C800E04562 /* EstructurasNoLineales */ = {
+			isa = PBXGroup;
+			children = (
+				92E9687F1FBD189E00E04562 /* Grafo */,
+			);
+			name = EstructurasNoLineales;
+			sourceTree = "<group>";
+		};
+		92E9687F1FBD189E00E04562 /* Grafo */ = {
+			isa = PBXGroup;
+			children = (
+				92E968851FBD19E300E04562 /* Edge.cpp */,
+				92E968831FBD19BC00E04562 /* Edge.hpp */,
+				92731A5F1FBD4CBB00B0E9C6 /* Graph.cpp */,
+				92731A601FBD4CBB00B0E9C6 /* Graph.hpp */,
+			);
+			name = Grafo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,10 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92731A611FBD4CBB00B0E9C6 /* Graph.cpp in Sources */,
 				920A2B2E1F70D91A00809F98 /* List.cpp in Sources */,
 				920A2B231F7000DD00809F98 /* main.cpp in Sources */,
 				920A2B421F81B4E200809F98 /* DLNode.cpp in Sources */,
 				920A2B341F73FCE700809F98 /* DLList.cpp in Sources */,
+				92E968861FBD19E300E04562 /* Edge.cpp in Sources */,
 				9222F6F61F84571700CA84A7 /* Stack.cpp in Sources */,
 				9222F71B1F8F148600CA84A7 /* Deque.cpp in Sources */,
 				920A2B2B1F70013100809F98 /* Node.cpp in Sources */,
